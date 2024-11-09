@@ -1,9 +1,9 @@
 {
   "required": true,
-  "package": "com.example.template.mixin",
+  "package": "org.rhm.better_saved_tabs.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ExampleMixin"
+    "CreativeModeInventoryScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

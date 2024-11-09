@@ -8,14 +8,14 @@
     "${author}"
   ],
   "contact": {
-
+    "issues": "https://github.com/Raik176/better-saved-tabs/issues",
+    "sources": "https://github.com/Raik176/better-saved-tabs"
   },
   "license": "${license}",
-  "icon": "assets/${id}/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
-      "${group}.${id}.fabric.TemplateModFabric"
+      "${group}.${id}.fabric.BetterSavedTabsFabric"
     ]
   },
   "mixins": [
