@@ -4,6 +4,7 @@
   "version": "${version}",
   "name": "${name}",
   "description": "${description}",
+  "icon": "assets/${id}/icon.png",
   "authors": [
     "${author}"
   ],
