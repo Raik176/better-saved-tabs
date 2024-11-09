@@ -2,7 +2,7 @@
     <a href="https://modrinth.com/project/better-saved-tabs">
         <img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/modrinth_vector.svg">
     </a>
-    <a href="https://www.curseforge.com/minecraft/mc-mods/mod-credits-reborn">
+    <a href="https://www.curseforge.com/minecraft/mc-mods/better-saved-tabs">
         <img alt="curseforge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/curseforge_vector.svg">
     </a>
     <a href="https://github.com/Raik176/better-saved-tabs">
