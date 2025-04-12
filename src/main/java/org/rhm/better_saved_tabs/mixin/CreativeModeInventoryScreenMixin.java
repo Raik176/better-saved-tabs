@@ -1,9 +1,9 @@
 package org.rhm.better_saved_tabs.mixin;
 
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.world.item.Items;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen;
-import net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.client.player.inventory.Hotbar;
 import net.minecraft.core.RegistryAccess;
@@ -29,20 +29,18 @@ import org.rhm.better_saved_tabs.DummyInventory;
 
 @Debug(export = true)
 @Mixin(CreativeModeInventoryScreen.class)
-public abstract class CreativeModeInventoryScreenMixin extends EffectRenderingInventoryScreen<CreativeModeInventoryScreen.ItemPickerMenu>  {
+public abstract class CreativeModeInventoryScreenMixin extends Screen {
 	@Unique
 	private boolean better_saved_tabs$ctrlDown;
 
-	@Shadow private static CreativeModeTab selectedTab;
-
-	public CreativeModeInventoryScreenMixin(CreativeModeInventoryScreen.ItemPickerMenu abstractContainerMenu, Inventory inventory, Component component) {
-		super(abstractContainerMenu, inventory, component);
+	protected CreativeModeInventoryScreenMixin(Component component) {
+		super(component);
 	}
 
 
 	@Shadow protected abstract boolean isCreativeSlot(Slot arg);
 	@Shadow protected abstract void selectTab(CreativeModeTab arg);
-	@Shadow protected abstract void slotClicked(Slot arg, int m, int n, ClickType arg2);
+	@Shadow private static CreativeModeTab selectedTab;
 
 	@Inject(method = "slotClicked", at = @At("HEAD"), cancellable = true)
 	private void slotClicked(Slot slot, int i, int j, ClickType clickType, CallbackInfo ci) {

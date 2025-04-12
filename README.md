@@ -37,3 +37,15 @@ CTRL+Click on a slot without an item to clear it.
 <div align="center">
     <img src="https://i.imgur.com/4ZHzB46.gif" alt="Example 3 demo" width="70%">
 </div>
+
+# Want to support the Mod?
+Thank you so much for using this mod! While I don't accept donations, your support in other ways means the world and helps the mod grow.
+
+The simplest and best way you can help is by letting others know about it! When more people discover the mod, it builds a bigger community and fuels my motivation to keep improving it and adding new features. By sharing, you directly contribute to its future development.
+
+### How You Can Help Spread the Word:
+- **Showcase It**: Create a video review/showcase, or even a let's play featuring the mod.
+- **Recommend It**: Tell friends who might enjoy it, or share it in relevant online communities (but be considerate and avoid spamming).
+- **Include It in a Modpack**: Adding it to your modpack is a great way to help others discover it.
+
+Every share makes a difference. Thank you for helping this mod thrive!

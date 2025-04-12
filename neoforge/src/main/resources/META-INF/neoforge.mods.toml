@@ -1,6 +1,7 @@
 modLoader = "javafml"
 loaderVersion = "*"
 license = "${license}"
+issueTrackerURL = "https://github.com/Raik176/better-saved-tabs/issues"
 
 [[mods]]
 modId = "${id}"

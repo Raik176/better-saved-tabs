@@ -9,6 +9,7 @@
     "${author}"
   ],
   "contact": {
+    "homepage": "https://rhm176.de",
     "issues": "https://github.com/Raik176/better-saved-tabs/issues",
     "sources": "https://github.com/Raik176/better-saved-tabs"
   },
